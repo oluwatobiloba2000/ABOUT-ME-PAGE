@@ -1,0 +1,97 @@
+body{
+    background: rgb(245, 56, 88);
+}
+.container{
+    max-width: 1500px;
+    background-color: rgb(255, 255, 255);
+    height: 90vh;
+    margin-top: 100px;
+    margin-right: 20px;
+    margin-bottom: 100px;
+    margin-left: 20px;
+}
+.nav_container{
+    display: flex;
+    justify-content: flex-end;
+}
+ul>li{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Merienda', cursive;
+    text-shadow: 10px 5px 5px rgb(253, 114, 156);
+    list-style: none;
+    display: inline-block;
+}
+ul>li>a{
+    margin: 0px 20px 0px 20px;
+    padding: 20px 0px 10px 0px;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    text-decoration: none;
+}
+ul>li>a:hover{
+    color: rgb(245, 56, 88);
+    border-bottom: 3px solid rgb(245, 56, 88);
+}
+.navigation ul{
+    margin: 0px 10px 0px 0px;
+    padding: 0;
+}
+.body_container{
+    display: flex;
+    margin: 40px 40px 60px 40px;
+}
+.body_img{
+    border-radius: 15px;
+}
+.body_text{
+    padding-left: 10px;
+    font-family: 'Righteous', cursive;
+}
+#h3_name{
+    letter-spacing: 4px;
+}
+#social_networks{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+}
+.linkedin{
+    border-radius: 15px;
+   box-shadow: 5px 2px 4px rgb(0, 0, 0);
+}
+.twitter{
+    border-radius: 10px;
+    box-shadow: 5px 2px 4px rgb(0, 0, 0);
+}
+.instagram{
+    border-radius: 5px;
+    box-shadow: 5px 2px 4px rgb(0, 0, 0);
+}
+.facebook{
+    border-radius: 23px;
+    box-shadow: 5px 2px 4px rgb(0, 0, 0);
+}
+footer{
+    text-align: center;
+}
+@media all and (max-width: 1000px){
+   .container{
+       height: 120vh;
+   }
+}
+
+@media all and (max-width: 600px){
+    .container{
+        height: 180vh;
+    }
+    .nav_container .navigation ul{
+        display: flex;
+       flex-direction: column;
+    }
+    .navigation ul{
+        margin-right: 250px;
+    }
+    .body_container{
+        flex-direction: column;
+    }
