@@ -48,6 +48,9 @@ ul>li>a:hover{
     padding-left: 10px;
     font-family: 'Righteous', cursive;
 }
+.fa-user-check{
+    color: rgb(0, 0, 0);
+}
 #h3_name{
     letter-spacing: 4px;
 }
@@ -56,22 +59,14 @@ ul>li>a:hover{
     justify-content: space-around;
     padding: 5px;
 }
-.linkedin{
-    border-radius: 15px;
-   box-shadow: 5px 2px 4px rgb(0, 0, 0);
+
+i.fas,
+  i.fab {
+    color: rgb(0, 0, 0);
+    font-size: 40px;
 }
-.twitter{
-    border-radius: 10px;
-    box-shadow: 5px 2px 4px rgb(0, 0, 0);
-}
-.instagram{
-    border-radius: 5px;
-    box-shadow: 5px 2px 4px rgb(0, 0, 0);
-}
-.facebook{
-    border-radius: 23px;
-    box-shadow: 5px 2px 4px rgb(0, 0, 0);
-}
+
+
 footer{
     text-align: center;
 }
@@ -95,3 +90,4 @@ footer{
     .body_container{
         flex-direction: column;
     }
+}
