@@ -1,0 +1,75 @@
+body{
+    margin: 0 auto;
+    background-image: url(portfolio_img.jpg);
+    background-position: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.top_div{
+    margin: 0 ;
+    width: auto;
+    height: 40vh;
+}
+.top_div p{
+    font-family: 'Pacifico', cursive;
+    font-size: 80px;
+    text-align: center;
+}
+#sup_tm{
+    font-size: 25px;
+}
+.button{
+    display: inline-block;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    color: rgb(74, 74, 255);
+    background: rgb(0, 0, 0);
+}
+.button:hover{
+    transform: scale(1.2 , 1.2);
+}
+.button a{
+    font-size: 22px;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+    color: rgb(255, 255, 255);
+}
+
+.bottom_div{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     margin-top: 10px;
+     margin-right: 90px;
+     margin-bottom: 0px;
+     margin-left: 90px;
+     min-height: 80vh;
+}
+ div .quote{
+     background-color: rgba(225, 225, 225, 0.068);
+     transition: ease-in-out 0s;
+}
+.quote p{
+    font-size: 30px;
+    font-family: 'Cookie', cursive;
+    text-align: center ;
+}
+.fas{
+    font-size: 40px;
+}
+.fa-quote-right{
+  float: right;
+}
+.quote:hover{
+    background: -webkit-linear-gradient(rgba(255, 57, 90, 0.562) , rgba(251, 255, 5, 0.377));
+    border-radius: 40px;
+}
